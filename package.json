@@ -4,7 +4,6 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "compile": "tsc",
     "test": "jest --env=node --colors --coverage test --config ./test/jest.config.js",
     "tsc": "tsc",
     "start": "tsc & node ./src/index.js"
