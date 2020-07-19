@@ -10,6 +10,11 @@ cd nodejs-api-intregration-test
 npm install
 ```
 To run this application
+change MongoDb ConnectionString from index.ts
+```
+mongodb://<username>:<password>@ds115768.mlab.com:15768/<database>
+
+```
 ```
 npm start
 ```
