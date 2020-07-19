@@ -24,6 +24,4 @@ app.post('/create', async (req, res) => {
 const dbConnectionString: string = "mongodb://dev_admin:159!QAZ@ds115768.mlab.com:15768/shopway_dev"
 databaseConnect(dbConnectionString);
 
-app.listen(3000, function () {
-    console.log('App is listening on port 3000!');
-});
+export = app;
