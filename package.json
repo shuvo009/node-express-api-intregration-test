@@ -6,7 +6,7 @@
   "scripts": {
     "test": "tsc & jest",
     "tsc": "tsc",
-    "run": "tsc & node server.js"
+    "start": "tsc & node index.js"
   },
   "author": "",
   "license": "ISC",

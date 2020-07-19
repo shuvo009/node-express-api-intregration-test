@@ -1,5 +1,5 @@
-import { IUser } from "../schemas/userSchema";
-import userSchema from "../schemas/userSchema";
+import { IUser } from "./userSchema";
+import userSchema from "./userSchema";
 
 export class UserRepository {
     async getAllUsers(): Promise<IUser[]> {
