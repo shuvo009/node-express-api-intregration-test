@@ -27,3 +27,24 @@ npm test
 * [supertest](https://github.com/visionmedia/supertest) - Super-agent driven library for testing node.js HTTP servers using a fluent API
 * [ts-jest](https://github.com/kulshekhar/ts-jest) - ts-jest is a TypeScript preprocessor with source map support for Jest that lets you use Jest to test projects written in TypeScript
 * [@shelf/jest-mongodb](https://www.npmjs.com/package/@shelf/jest-mongodb) -  This preset assists you to configure all the settings MongoDB Memory Server.
+
+## Directory Structure
+
+```
+root
+├── src
+│   ├── controllers               # http handlers
+│   ├── dataLayer                 # repository, schema, database connection
+│   ├── server.ts                 # express server setup
+│   └── index.ts                  # connect database and start server at 3000
+│ 
+├── test
+│   ├── __test__                  # all test files are here.
+│   ├── jest-mongodb-config.ts    # In-Memory mongoDb configuration
+│   └── jest.config.ts            # jest configuration
+│
+├── package.json
+├── tsconfig.json
+└── globalConfig.json             # In-Memory mongoDb connection string (Auto Generated)                
+ 
+```
