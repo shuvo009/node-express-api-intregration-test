@@ -1,4 +1,4 @@
-# Nodejs Api Intregration Test
+# Node Express Api Intregration Test
 Here I demonstration how can we test our api with In-Memory MongoDB using jest.
 ## Common setup
 Clone the repo and install the dependencies.
