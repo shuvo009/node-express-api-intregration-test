@@ -9,4 +9,4 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.get('/users', getUsers);
 app.post('/create', createUser);
 
-export = app;
+module.exports = app;

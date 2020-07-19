@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { UserRepository } from "../dataLayer/userRepository"
 import { IUser } from '../dataLayer/userSchema';
 
-export const getUsers = async (req: Request, res: Response) => {
+export const getUsers = async (req: any, res: any) => {
     try {
         const userRepository = new UserRepository();
         const users = await userRepository.getAllUsers();
