@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsc & jest",
+    "test": "tsc & jest --config ./test/jest.config.js",
     "tsc": "tsc",
     "start": "tsc & node ./src/index.js"
   },
